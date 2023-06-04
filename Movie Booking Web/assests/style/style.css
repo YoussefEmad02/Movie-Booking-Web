@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+body{
+    background-color: rgb(255, 152, 152);
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.4)),
+    url(../images/981422.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.error{
+    font-size: 0.8rem;
+    color: rgb(255, 136, 136);
+    position: absolute;
+}
+
+.page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+form{
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-bottom: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+
+}
+form .overlay{
+    width: 110%;
+    height: 110%;
+    background: linear-gradient(135deg, rgba(255,255,255,0.3),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    position: absolute;
+    z-index: -1;
+}
+
+
+form label{
+    width: 80%;
+    color: white;
+}
+
+
+form div {
+    width: 90%;
+    position: relative;
+
+}
+
+form div i {
+    position: absolute;
+    color: white;
+    right: 0px;
+}
+
+form div .input{
+    width: 100%;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    border-bottom: 1px white solid;
+    color: white;
+    /* padding: 0.5rem; */
+}
+
+form div .input:focus{
+    outline: none;
+}
+
+.sub {
+    width: 80%;
+    height: 10%;
+    border-radius: 50px;
+    border: 0px solid white;
+}
+
+.sub:hover{
+    cursor: pointer;
+}
+
+.links{
+    position: absolute;
+    bottom: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+}
+
+
+
+.sub::after{
+    display: block;
+    width: 100%;
+    height: 30px;
+    content: "";
+    background : linear-gradient(90deg, rgba(247, 7, 118, 0.7), black);
+}
+
