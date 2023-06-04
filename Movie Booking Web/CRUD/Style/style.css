@@ -1,0 +1,17 @@
+.show{
+    display: none;
+}
+
+.relative{
+    position: relative;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+    font-size: 0.8rem;
+    /* margin-top: -20px; */
+    position: absolute;
+    bottom: -30px;
+}
+

@@ -1,0 +1,62 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/bookStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    
+
+    <h3 id="movie" class="white">Please Select a Movie</h3>
+
+    <div class="contain">
+        <div class="screen"></div>
+    </div>
+
+    <button class="nav-btn open-btn">
+        <i class="fas white fa-bars"></i>
+    </button>
+    <div class="nav nav-black">
+        <div class="nav nav-red">
+            <div class="nav nav-white">
+                <button class="nav-btn close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="list">
+                    <input type="search" class="form-control mb-3" placeholder="search..." id="search">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Price</th>
+                                <th>category</th>
+                                <th>Desc</th>                
+                            </tr>
+                        </thead>
+                        <tbody id="info">
+                        </tbody>
+                    </table>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="seats">
+
+    </div>
+    <p id="price1" class="white"></p>
+    <button id="book">book</button>
+
+
+    <script src="Script/book.js"></script>
+</body>
+
+</html>
