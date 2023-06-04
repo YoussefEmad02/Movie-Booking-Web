@@ -1,4 +1,4 @@
-﻿# <a name="_toc135345133"></a>Abstract
+﻿# <a name="_toc135345133"></a>Movie Booking Web
 In the fast-paced and densely populated world we live in, people are increasingly seeking ways to streamline their lives and make daily tasks more efficient. Fortunately, advancements in technology have led to significant developments that have simplified various aspects of our lives. These developments have made certain tasks easier and more convenient than they were in the past, allowing people to save time and effort.
 
 In this project we decided to apply software engineering principles to meet human's needs and facilitate means of entertainment, so we bring you an application that facilitates your hangout to the Cinema.
